@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Teilaufgabe 1 */
+
+.main-box {
+  border: 3px solid magenta;
+  width: 325px;
+  height: 325px;
+}
+
+.box-1 {
+  background-color: greenyellow;
+  width: 80px;
+  height: 80px;
+  margin-left: 240px;
+}
+
+.box-2 {
+  background-color: greenyellow;
+  border: 5px solid gray;
+  width: 80px;
+  height: 80px;
+  margin-left: 160px;
+}
+
+.box-3 {
+  background-color: greenyellow;
+  width: 80px;
+  height: 80px;
+  margin-left: 80px;
+}
+
+.box-4 {
+  background-color: greenyellow;
+  border: 5px solid gray;
+  width: 80px;
+  height: 80px;
+}
+
+/* Teilaufgabe 2 */
+
+.container div {
+  background-color: #f20808;
+  height: 100px;
+}
+
+#eins {
+  width: 100px;
+}
+
+#zwei {
+  width: 200px;
+  padding-left: 100px;
+}
+
+#drei {
+  width: 300px;
+  padding-left: 200px;
+}
+
+#vier {
+  width: 400px;
+  padding-left: 300px;
+}
+
+#eins > div,
+#zwei > div,
+#drei > div,
+#vier > div {
+  background-color: yellow;
+  border: 5px solid rgb(228, 108, 108);
+  width: 100px;
+}
+
+/* Unten: Falscher eigener Ansatz: zu kompliziert gedacht, weil ich alles als eigene box behandeln wollte, obwohl das nicht nötig gewesen ist.  */
+/* .box-yellow {
+  background-color: yellow;
+  border: 3px solid red;
+  width: 80px;
+  height: 80px;
+}
+
+.box-red {
+  background-color: rgba(255, 0, 0, 0.971);
+  width: 80px;
+  height: 80px;
+  /* float: left; */
+
+/* #drei {
+  padding: 80px;
+  height: 80px;
+}
+
+#sechs {
+  padding: 162.5px;
+  height: 80px;
+}
+
+#zehn {
+  padding: 240px;
+  height: 80px;
+} */
